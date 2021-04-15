@@ -5,6 +5,7 @@ if(process.argv.length === 2) {
 }
 
 const fs = require("fs");
+
 let text = fs.readFileSync(process.argv[2]);
 text = text.toString();
 console.log(text);
